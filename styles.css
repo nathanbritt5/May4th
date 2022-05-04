@@ -16,7 +16,7 @@ body {
 	  top: 50%;
 	  transform: translate(-50%, -50%);
 	  z-index: 1;
-	  animation: intro 6s ease-out 1s;
+	  animation: intro 3.5s ease-out 1s;
 	  color: rgb(75, 213, 238);
 	  font-weight: 400;
 	  font-size: 300%;
@@ -43,7 +43,7 @@ body {
 	  position: absolute;
 	  z-index: 1;
 	  margin: auto;
-	  animation: logo 9s ease-out 9s;
+	  animation: logo 7s ease-out 5s;
 	  opacity: 0;
 	  left: calc(50vw - 9em);
 	  top: 40vh;
@@ -100,7 +100,7 @@ body {
   }
   
   #content {
-	animation: scroll 100s linear 16s;
+	animation: scroll 75s linear 10s;
 	position: absolute;
 	top: 100%;
   }
